@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9ecf1"/>
+      <stop offset="100%" stop-color="#cfd6e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="#9aa4b2" stroke-width="2">
+    <rect x="60" y="60" width="1080" height="680" rx="12"/>
+    <line x1="60" y1="60" x2="1140" y2="740"/>
+    <line x1="1140" y1="60" x2="60" y2="740"/>
+  </g>
+  <text x="600" y="410" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="36" fill="#5b6472">이미지를 준비 중입니다</text>
+</svg>
