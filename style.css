@@ -31,6 +31,12 @@ a {
   z-index: 10;
 }
 
+.hero,
+.features,
+.cta-banner {
+  scroll-margin-top: 72px;
+}
+
 .header-inner {
   max-width: 1100px;
   margin: 0 auto;
@@ -52,9 +58,15 @@ a {
   gap: 1.75rem;
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.nav a {
   color: #6b7280;
-  cursor: default;
-  user-select: none;
+  transition: color 0.15s ease;
+}
+
+.nav a:hover {
+  color: #3b5bfd;
 }
 
 /* Hero */
