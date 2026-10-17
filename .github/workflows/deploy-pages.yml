@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - claude/homepage-creation-onuflc
   workflow_dispatch:
 
 permissions:
