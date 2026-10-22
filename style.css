@@ -253,11 +253,6 @@ a.store-btn:hover {
   transform: translateY(-2px);
 }
 
-.store-btn[aria-disabled="true"] {
-  cursor: not-allowed;
-  opacity: 0.6;
-}
-
 .store-icon {
   width: 22px;
   height: 22px;
